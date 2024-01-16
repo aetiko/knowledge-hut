@@ -5,8 +5,8 @@
 - Intro to web Dev
 - Intro to HTML
 <p align="center">
-  <img src="/Images/intro/3.png" width="525px" title="1.0">
-  <img src="/Images/intro/4.png" width="525px" title="1.1">
+  <img src="/Images/intro/3.png" width="500px" title="1.0">
+  <img src="/Images/intro/4.png" width="500px" title="1.1">
 </p>
 In this section I was a able to learn the basics about elements, playing with them to mock up two basic webpages <a href="/Mastering-html5-andcss3/Intro/index.html"> 1 </a> and <a href="/Mastering-html5-andcss3/Intro/index-one.html"> 2</a>
 - Forms and Inputs
