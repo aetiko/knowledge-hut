@@ -9,7 +9,7 @@
 </p>
 
 - <a href="/Mastering-html5-andcss3/Intro/index-one.html"> Intro to HTML </a>
-<p align center>
+<p align="center">
   <img src="/Images/intro/1.png" width="350" height="300" title="1.2">
   <img src="/Images/intro/2.png" width="350" height="300" title="1.3">
 </p>
