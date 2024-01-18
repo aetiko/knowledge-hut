@@ -1,4 +1,4 @@
-## Web dev
+## Web development
 
 # Mastering HTML5 and CSS3
 - Here there is a lot of learning of the basics of HTML and CSS in terms of the history and basics
