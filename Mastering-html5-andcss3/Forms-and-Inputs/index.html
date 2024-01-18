@@ -6,7 +6,7 @@
     <title>Forms</title>
   </head>
   <body>
-    <form action="/action_page.php">
+    <form action="/" method="get">
       <label for="fname">First name:</label><br />
       <input type="text" id="fname" name="fname" value="John" /><br />
       <label for="lname">Last name:</label><br />
@@ -54,13 +54,57 @@
       <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" />
       <label for="vehicle3"> I have a boat</label>
 
-      <br><br>
+      <br /><br />
 
       <div>
         <label for="color">Select fav color</label>
-        <input type="color" name="color" id="color">
-        <br><br>
+        <input type="color" name="color" id="color" />
       </div>
+      <br /><br />
+      <div>
+        <label for="">I am</label>
+        <select name="gender" id="gender">
+          <option value="male">Male</option>
+          <option value="female" selected>Female</option>
+        </select>
+      </div>
+      <br />
+      <br />
+      <div>
+        <label for="">About me</label>
+        <textarea
+          name="About"
+          id="About"
+          cols="50"
+          rows="10"
+          style="vertical-align: top"
+          placeholder="Enter your jargons in here"
+          minlength="10"
+          maxlength="150"
+          readonly
+        >
+ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam esse eum sunt quod odit voluptatem rerum nesciunt at aspernatur ratione! Possimus, in saepe. Temporibus, atque, officia porro ipsam quisquam maiores molestias amet illum sequi explicabo eveniet repellendus natus neque sapiente, doloribus in voluptatum corporis repudiandae voluptate architecto. Esse, asperiores distinctio.</textarea
+        >
+      </div>
+      <br /><br />
+      <label for="brand">Select a brand</label>
+        <input type="text" name="brand" id="brand" list="brands">
+        <datalist id="brands">
+          <option value="Rebook"></option>
+          '<option value="nike"></option>
+          <option value="swav"></option>
+          <option value="hugo"></option>
+          <option value="maiores"></option>
+          <option value="mason"></option>
+          <option value="mazda"></option>
+          <option value="niggas in parid"></option>
+        </datalist>
+        <br><br>
+      <button type="button">
+        <img src="https://unsplash.it/16/16" alt="a phony picture">
+        Click me</button>
+
+        
       <input type="submit" value="Submit" />
       <input type="reset" value="Reset" />
     </form>
